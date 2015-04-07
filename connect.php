@@ -18,6 +18,7 @@ $result = mysql_query($query);
 if($result) 
 	{
  	echo "Successfully updated database";
+	echo "<br>";
 	echo "Thank you for contacting. For fast response, please contact me directly at chuankengchou@gmail.com"; 
  	} 
 	else { die('Error: '.mysql_error($con)); 
